@@ -11,6 +11,7 @@
 
 <h1 align="center">♻️ Classificação de Resíduos Recicláveis</h1>
 
+---
 
 ## 📑 Índice
 
