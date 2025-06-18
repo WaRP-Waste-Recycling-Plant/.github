@@ -20,7 +20,6 @@
 - [🎯 Objetivos](#-objetivos)
 - [🧰 Funcionalidades](#-funcionalidades)
 - [🧠 Casos de Uso](#-casos-de-uso)
-- [🔄 Pipeline do Projeto](#-pipeline-do-projeto)
 - [📊 Dataset](#-dataset)
 - [🚩 warp-waste-classification ⚠️](#-warp-waste-classification-️)
 - [📥 Clonar Repositório](#-clonar-repositório)
@@ -67,19 +66,6 @@ Desenvolver um modelo capaz de **classificar corretamente resíduos recicláveis
 - ♻️ Otimização de processos de triagem em centros de reciclagem.
 - 🏭 Aplicação industrial para automação de separação de resíduos.
 - 🧑‍🏫 Base para pesquisas acadêmicas e experimentos em visão computacional.
-
----
-
-## 🔄 Pipeline do Projeto
-
-```mermaid
-graph TD
-A[Análise do Dataset] --> B[Pré-processamento]
-B --> C[Modelagem com métodos da literatura]
-C --> D[Testes e melhorias com modelos próprios]
-D --> E[Avaliação dos Modelos]
-E --> F[Conclusões e Entregas]
-```
 
 ---
 
