@@ -11,7 +11,6 @@
 
 <h1 align="center">♻️ Classificação de Resíduos Recicláveis</h1>
 
----
 
 ## 📑 Índice
 
@@ -100,7 +99,7 @@ Repositório contendo:
 - Scripts Python para automação e tratamento de dados.  
 - Resultados, gráficos e modelos exportados.  
 
-🔗 [Acessar repositório warp-waste-classification](https://github.com/seu-usuario/warp-waste-classification)
+🔗 [Acessar repositório warp-waste-classification](https://github.com/WaRP-Waste-Recycling-Plant/warp-waste-classification)
 
 ---
 
