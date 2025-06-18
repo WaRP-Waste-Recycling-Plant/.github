@@ -11,195 +11,147 @@
 
 <h1 align="center">♻️ Classificação de Resíduos Recicláveis</h1>
 
-<p align="center">
-  <b>Projeto desenvolvido no Bootcamp em Machine Learning</b> <br>
-</p>
-
 ---
 
 ## 📑 Índice
 
 - [📑 Índice](#-índice)
-- [📝 Descrição do Projeto :writing\_hand:](#-descrição-do-projeto-writing_hand)
-- [🎯 Objetivo :dart:](#-objetivo-dart)
-- [🔥 Atividades do Projeto :fire:](#-atividades-do-projeto-fire)
-  - [✅ **ATIV-04-ET-01 — Análise do Dataset**](#-ativ-04-et-01--análise-do-dataset)
-  - [✅ **ATIV-04-ET-02 — Pesquisa de Métodos + Propostas**](#-ativ-04-et-02--pesquisa-de-métodos--propostas)
-  - [✅ **ATIV-04-ET-03 — Metodologia, Resultados e Conclusões**](#-ativ-04-et-03--metodologia-resultados-e-conclusões)
-- [🧠 Pipeline do Projeto :technologist:](#-pipeline-do-projeto-technologist)
-- [📊 Dataset :database:](#-dataset-database)
-- [🗺️ Estrutura do Projeto](#️-estrutura-do-projeto)
-- [📑 Metodologia](#-metodologia)
-- [📈 Métricas de Avaliação](#-métricas-de-avaliação)
-- [🚀 Como Executar o Projeto :rocket:](#-como-executar-o-projeto-rocket)
-  - [1️⃣ Clone este repositório:](#1️⃣-clone-este-repositório)
-  - [2️⃣ Acesse a pasta do projeto:](#2️⃣-acesse-a-pasta-do-projeto)
-  - [3️⃣ Crie um ambiente virtual:](#3️⃣-crie-um-ambiente-virtual)
-  - [4️⃣ Ative o ambiente virtual:](#4️⃣-ative-o-ambiente-virtual)
-  - [5️⃣ Instale as dependências:](#5️⃣-instale-as-dependências)
-  - [6️⃣ Execute os notebooks ou scripts na pasta `/notebooks` ou `/src`.](#6️⃣-execute-os-notebooks-ou-scripts-na-pasta-notebooks-ou-src)
-- [🔧 Tecnologias e Bibliotecas :hammer\_and\_wrench:](#-tecnologias-e-bibliotecas-hammer_and_wrench)
-- [👥 Squad :octocat:](#-squad-octocat)
-- [📜 Licença :scroll:](#-licença-scroll)
+- [📝 Descrição](#-descrição)
+- [🎯 Objetivos](#-objetivos)
+- [🧰 Funcionalidades](#-funcionalidades)
+- [🧠 Casos de Uso](#-casos-de-uso)
+- [🔄 Pipeline do Projeto](#-pipeline-do-projeto)
+- [📊 Dataset](#-dataset)
+- [🚩 warp-waste-classification ⚠️](#-warp-waste-classification-️)
+- [📥 Clonar Repositório](#-clonar-repositório)
+- [🤝 Contribuições](#-contribuições)
+- [🚀 Melhorias Futuras](#-melhorias-futuras)
+- [🛠️ Tecnologias, Bibliotecas e Dependências](#️-tecnologias-bibliotecas-e-dependências)
+- [👥 Squad](#-squad)
+- [📜 Licença](#-licença)
 
 ---
 
-## 📝 Descrição do Projeto :writing_hand:
+## 📝 Descrição
 
-Este projeto tem como objetivo desenvolver um modelo de **Machine Learning e Visão Computacional** capaz de classificar imagens de resíduos recicláveis em diferentes categorias, como papel, vidro, metal, plástico, entre outros.
+Este projeto tem como objetivo desenvolver um modelo de **Machine Learning e Visão Computacional** capaz de classificar imagens de resíduos recicláveis nas categorias **papel, vidro, metal, plástico**, entre outros.
 
-O desenvolvimento ocorre como parte do **Bootcamp em Machine Learning**, promovendo a aplicação prática dos conceitos aprendidos no curso.
+Desenvolvido no contexto do **Bootcamp em Machine Learning**, o projeto aplica técnicas de aprendizado de máquina e análise de dados para uma solução sustentável.
 
 ---
 
-## 🎯 Objetivo :dart:
+## 🎯 Objetivos
 
 Desenvolver um modelo capaz de **classificar corretamente resíduos recicláveis a partir de imagens**, contribuindo para soluções sustentáveis e inteligentes.
 
-- ✔️ Analisar, preparar e explorar o dataset.
+- ✔️ Analisar e preparar o dataset.
 - ✔️ Aplicar modelos da literatura.
-- ✔️ Propor melhorias e testar modelos próprios.
-- ✔️ Avaliar os modelos usando métricas específicas.
-- ✔️ Documentar e apresentar a metodologia, resultados e conclusões.
+- ✔️ Propor melhorias e desenvolver modelos próprios.
+- ✔️ Avaliar o desempenho dos modelos.
+- ✔️ Documentar metodologia, resultados e aprendizados.
 
 ---
 
-## 🔥 Atividades do Projeto :fire:
+## 🧰 Funcionalidades
 
-### ✅ **ATIV-04-ET-01 — Análise do Dataset**
-- ✔️ Verificar integridade dos arquivos.
-- ✔️ Checar consistência dos metadados.
-- ✔️ Avaliar qualidade das imagens.
-- ✔️ Analisar distribuição das classes.
-- ✔️ Identificar e tratar imagens duplicadas.
-
-### ✅ **ATIV-04-ET-02 — Pesquisa de Métodos + Propostas**
-- ✔️ Implementar e testar métodos da literatura (disponíveis no próprio Kaggle e outros artigos).
-- ✔️ Propor melhorias, como:
-  - Otimização de hiperparâmetros.
-  - Arquiteturas mais leves e rápidas.
-  - Redução do conjunto de treino mantendo a performance.
-
-### ✅ **ATIV-04-ET-03 — Metodologia, Resultados e Conclusões**
-- ✔️ Documentar a metodologia adotada.
-- ✔️ Comparar resultados entre modelos da literatura e modelos próprios.
-- ✔️ Apresentar tabelas, gráficos e métricas.
-- ✔️ Elaborar conclusões, aprendizados e sugestões de melhorias futuras.
+- 📦 Classificação automática de imagens de resíduos recicláveis.
+- 🔍 Análise exploratória dos dados (EDA).
+- 🧠 Desenvolvimento de modelos com machine learning e deep learning.
+- 📊 Avaliação com métricas robustas.
+- 🚀 Pipeline completo de dados, modelagem e resultados.
 
 ---
 
-## 🧠 Pipeline do Projeto :technologist:
+## 🧠 Casos de Uso
+
+- ♻️ Otimização de processos de triagem em centros de reciclagem.
+- 🏭 Aplicação industrial para automação de separação de resíduos.
+- 🧑‍🏫 Base para pesquisas acadêmicas e experimentos em visão computacional.
+
+---
+
+## 🔄 Pipeline do Projeto
 
 ```mermaid
 graph TD
 A[Análise do Dataset] --> B[Pré-processamento]
 B --> C[Modelagem com métodos da literatura]
-C --> D[Testes com melhorias e modelos próprios]
-D --> E[Análise de Resultados]
+C --> D[Testes e melhorias com modelos próprios]
+D --> E[Avaliação dos Modelos]
 E --> F[Conclusões e Entregas]
 ```
 
 ---
 
-## 📊 Dataset :database:
+## 📊 Dataset
 
-- 📦 **Nome:** Warp Waste Recycling Plant Dataset  
-- 🔗 **Link:** [Kaggle - Warp Waste Recycling Plant Dataset](https://www.kaggle.com/datasets/parohod/warp-waste-recycling-plant-dataset)  
+- 📦 **Nome:** Warp Waste Recycling Plant Dataset
+- 🔗 **Link:** [Acessar no Kaggle](https://www.kaggle.com/datasets/parohod/warp-waste-recycling-plant-dataset)
 
 **Descrição:**  
-O dataset contém imagens categorizadas de resíduos recicláveis, incluindo papel, metal, vidro, plástico, entre outros, utilizadas para treinamento, validação e teste de modelos de classificação de imagens.
+O dataset contém imagens categorizadas de resíduos recicláveis, incluindo papel, metal, vidro e plástico. Utilizado para treino, validação e teste dos modelos.
 
 ---
 
-## 🗺️ Estrutura do Projeto
+## 🚩 warp-waste-classification ⚠️
 
-- `data/` — Dados brutos do dataset.
-- `notebooks/` — Notebooks de exploração, modelagem e análise.
-- `src/` — Scripts Python utilizados no projeto.
-- `outputs/` — Resultados, gráficos e modelos treinados.
-- `docs/` — Documentação e apresentações.
+Repositório contendo:  
+- Notebooks com análises, modelagem e experimentos.  
+- Scripts Python para automação e tratamento de dados.  
+- Resultados, gráficos e modelos exportados.  
 
----
-
-## 📑 Metodologia
-
-- ✅ **Análise Exploratória dos Dados (EDA)**
-- ✅ **Pré-processamento**
-- ✅ **Treinamento e Avaliação de Modelos**
-- ✅ **Aprimoramento de Modelos (Hiperparâmetros, Arquitetura)**
-- ✅ **Análise de Resultados e Conclusões**
+🔗 [Acessar repositório warp-waste-classification](https://github.com/seu-usuario/warp-waste-classification)
 
 ---
 
-## 📈 Métricas de Avaliação
+## 📥 Clonar Repositório
 
-- Acurácia
-- Precisão
-- Recall
-- F1-Score
-- Matriz de Confusão
+```bash
+git clone https://github.com/seu-usuario/nome-do-repositorio.git
+```
 
 ---
 
-## 🚀 Como Executar o Projeto :rocket:
+## 🤝 Contribuições
 
-### 1️⃣ Clone este repositório:
-
-```bash
-git clone https://github.com/seu-usuario/seu-repositorio.git
-```
-
-### 2️⃣ Acesse a pasta do projeto:
-
-```bash
-cd seu-repositorio
-```
-
-### 3️⃣ Crie um ambiente virtual:
-
-```bash
-python -m venv venv
-```
-
-### 4️⃣ Ative o ambiente virtual:
-
-- Windows:
-
-```bash
-venv\Scripts\activate
-```
-
-- Linux/Mac:
-
-```bash
-source venv/bin/activate
-```
-
-### 5️⃣ Instale as dependências:
-
-```bash
-pip install -r requirements.txt
-```
-
-### 6️⃣ Execute os notebooks ou scripts na pasta `/notebooks` ou `/src`.
+1. Faça um fork 🚀  
+2. Crie sua branch (`git checkout -b feature/minha-feature`)  
+3. Commit suas alterações (`git commit -m 'feat: minha feature'`)  
+4. Push na branch (`git push origin feature/minha-feature`)  
+5. Abra um Pull Request 🎉  
 
 ---
 
-## 🔧 Tecnologias e Bibliotecas :hammer_and_wrench:
+## 🚀 Melhorias Futuras
 
-- Python
-- Pandas
-- NumPy
-- Scikit-Learn
-- TensorFlow ou PyTorch
-- OpenCV
-- Matplotlib
-- Seaborn
-- Jupyter Notebook
+- 🔥 Deploy como API (Flask ou FastAPI).  
+- 🌐 Desenvolvimento de uma interface web.  
+- 📱 Aplicativo mobile para classificação em tempo real.  
+- ⚙️ Testar modelos mais avançados (EfficientNet, YOLO, MobileNet).  
+- 🧠 Aplicação de aprendizado contínuo e autoML.  
 
 ---
 
-## 👥 Squad :octocat:
+## 🛠️ Tecnologias, Bibliotecas e Dependências
+
+- **Linguagem:** Python 3.10+
+- **Bibliotecas:**
+  - Pandas
+  - NumPy
+  - Scikit-Learn
+  - TensorFlow ou PyTorch
+  - OpenCV
+  - Matplotlib
+  - Seaborn
+  - Jupyter Notebook
+- **Ferramentas:**
+  - Kaggle
+  - Google Colab ou JupyterLab
+  - Git e GitHub
+
+---
+
+## 👥 Squad
 
 <table align="center">
   <tr>
@@ -220,18 +172,18 @@ pip install -r requirements.txt
         </a>
     </td>
     <td align="center">
-      <a href="https://www.linkedin.com/in/usuario-2">
-        <img src="https://avatars.githubusercontent.com/u/usuario-2" width="115px;" alt="Elineison de Sousa Profile Image"/><br>
+      <a href="https://github.com/Elineison">
+        <img src="https://avatars.githubusercontent.com/u/153145464?v=4" width="115px;" alt="Elineison de Sousa Profile Image"/><br>
       </a>
       <sub>
           <b>Elineison de Sousa</b>
          </sub>
     <br>
-        <a href="https://github.com/usuario-2">
+        <a href="https://github.com/Elineison">
             <img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white" />
         </a>
         <br>
-        <a href="https://www.linkedin.com/in/usuario-2">
+        <a href="https://www.linkedin.com/in/elineison-inacio-de-sousa/">
             <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" />
         </a>
     </td>
@@ -321,7 +273,7 @@ pip install -r requirements.txt
 
 ---
 
-## 📜 Licença :scroll:
+## 📜 Licença
 
 Este projeto está sob a licença **MIT** — Consulte o arquivo [LICENSE](LICENSE) para mais informações.  
 
