@@ -127,7 +127,7 @@ git clone https://github.com/seu-usuario/nome-do-repositorio.git
 - 🔥 Deploy como API (Flask ou FastAPI).  
 - 🌐 Desenvolvimento de uma interface web.  
 - 📱 Aplicativo mobile para classificação em tempo real.  
-- ⚙️ Testar modelos mais avançados (EfficientNet, YOLO, MobileNet).  
+- ⚙️ Testar modelos mais avançados (EfficientNet, MobileNet).  
 - 🧠 Aplicação de aprendizado contínuo e autoML.  
 
 ---
